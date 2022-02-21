@@ -35,7 +35,7 @@ function XmlAddMypb(go) {
             // 導入陣列
             var b = a.split('\n')
 
-            for (var i = 1; i < b.length; i++) {
+            for (var i = 0; i < b.length; i++) {
                 // 取代標記
                 if (/<img/.test(b[i]) && /\\/.test(b[i])) {
                     b[i] = b[i].replace(/(<img[^\\]+)\\([^>]+>)/g, '$1/$2')
