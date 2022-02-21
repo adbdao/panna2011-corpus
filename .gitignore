@@ -7,6 +7,7 @@ package-lock.json
 desktop.ini
 
 改詞條
+file#1
 
 *.zip
 *.bak
@@ -21,6 +22,6 @@ desktop.ini
 *.xml
 *.txt
 *.files
-
+*.cor
 
 
